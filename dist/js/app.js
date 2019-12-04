@@ -14,7 +14,7 @@ function changeImg() {
   if (i < images.length - 1) {
     i++;
   } else {
-    let i = 0;
+    i = 0;
   }
 
   setTimeout(changeImg, time);
