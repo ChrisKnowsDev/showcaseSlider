@@ -21,7 +21,7 @@ a {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 
@@ -59,4 +59,9 @@ img {
 
 #navbar .logo {
   align-self: center;
+}
+
+/* Shocase */
+#showcase {
+  height: 300px;
 }
