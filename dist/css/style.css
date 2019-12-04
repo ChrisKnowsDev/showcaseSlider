@@ -24,6 +24,10 @@ img {
   height: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 /* Utility Classes */
 .container {
   height: 100%;
@@ -71,4 +75,14 @@ img {
 /* Shocase */
 #showcase {
   height: 400px;
+}
+
+/* Info */
+#info .container .items {
+  display: flex;
+  justify-content: center;
+}
+
+#info .container .items .item {
+  flex: 1;
 }
